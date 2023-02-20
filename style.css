@@ -1,17 +1,23 @@
-body, header, ul, h1{
+body, header, ul, h1, img{
     margin: 0;
     padding: 0;
 }
 
 header{
     height: 80px;
-    width: 100vw;
+}
+
+#logo{
+    height: 42px;
+    width: 81px;
+    margin-left: 49px;
+    margin-top: 19px;
 }
 
 a{
     text-decoration: none;
     color: #242424;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -25,28 +31,27 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    align-items: center;
     margin-right: 72px;
     width: 100vw;
 }
 
 nav{
     display: flex;
-    width: 100vw;
 }
 
 main{
     height: 653px;
-    width: 100vw;
     background-color: #1F2039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #title-main{
     color: #A5B4FC;
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 101px;
-    padding-left: 242px;
 }
 
 #intro-text{
@@ -55,8 +60,41 @@ main{
     height: 108px;
     width: 409px;
     padding-top: 19px;
-    padding-left: 242px;
     font-size: 20px;
+}
+
+#contact-button:hover{
+    background: linear-gradient(180deg, #71699a 0%, #7073b3 100%);
+}
+
+#img-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-content{
+    display: flex;
+}
+
+#profil{
+    flex-direction: column;
+    margin-left: 20vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 326px 328px 326px;
+    grid-template-rows: 311px 311px;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 66px;
 }
 
 #contact-button{
@@ -64,17 +102,105 @@ main{
     border-radius: 50px;
     width: 306px;
     height: 62px;
-    left: 0px;
-    top: 0px;
-    margin-left: 242px;
-    margin-top: 46px; 
-    gap: 10px;
+    margin-top: 66px; 
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-transform: uppercase;
+    border: none;
+    font-weight: bold;
 }
 
-#contact-button:hover{
-    background: linear-gradient(180deg, #71699a 0%, #7073b3 100%);
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#contact-container{
+    background-color: #1F2039;
+    height: 720px;
+}
+
+div h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #A5B4FC;
+    font-size: 35px;
+    padding-top: 65px;
+}
+
+.span-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.champs{
+    width: 250px;
+    height: 60px;
+    margin-right: 2px;
+}
+
+#special{
+    width: 525px;
+    height: 205px;
+}
+
+#align-input{
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    color: white;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-logo-social{
+    display: grid;
+    grid-template-columns: 85% 5% 5%;
+    grid-template-rows: 80px;
+}
+
+#logo-social-insta{
+    width: 31px;
+    height: 31px;
+    margin-left: 49px;
+    margin-top: 25px;
+}
+
+#logo-social-twitter{
+    width: 37px;
+    height: 31px;
+    margin-left: 49px;
+    margin-top: 25px;
+}
+
+footer{
+    height: 80px; 
+}
+
+#test{
+    margin-right: 10px;
+}
+
+/* #input-container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 60px 300px;
+    grid-gap: 10px;
+}
+
+#champ2{
+    grid-row: 2/3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */

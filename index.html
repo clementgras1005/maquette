@@ -7,8 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
 <body>
     <header>
         <nav>
+            <img src="img/logo.png" id="logo" alt="logo"/>
             <ul>
                 <li>
                    <a href="#" >Accueil</a> 
@@ -33,23 +34,59 @@
         </nav>
     </header>
     <main>
-        <div id="intro-content">
+        <div id="img-content">
             <h1 id="title-main">Robbie Lens<br>Photographie</h1>
             <p id="intro-text">Où professionalisme s'allie avec passion. <br>Depuis plus de 5 ans maintenant, j'exerce <br>mon métier avec la passion qui m'anime : <br>capturer l'essence de chaque instant.</p>
             <button id="contact-button" type="button">
                 Un projet ? écrivez-moi
             </button>
         </div>
-        <img src="" alt="Photo de profil"/>
+        <div id="content-img">
+            <img id="profil" src="img/profil.png" alt="Photo de profil"/>
+        </div>
     </main>
     <aside>
-
+        <h2>Mon dernier projet</h2>
+        <div class="img-container">
+            <img class="galery" src="img/img1.png" alt="Galerie1"/>
+            <img class="galery" src="img/img2.png" alt="Galerie2"/>
+            <img class="galery" src="img/img3.png" alt="Galerie3"/>
+            <img class="galery" src="img/img4.png" alt="Galerie4"/>
+            <img class="galery" src="img/img5.png" alt="Galerie5"/>
+            <img class="galery" src="img/img6.png" alt="Galerie6"/>
+        </div>
+        <button id="contact-button" type="button">
+            voir mon Portfolio
+        </button>
     </aside>
-    <aside>
-        
-    </aside>
-    <footer>
-        
+    <div id="contact-container">
+        <h2>Mon dernier projet</h2>
+        <div id="input-container">
+            <div id="align-input">
+                <div class="span-container">
+                    <span>nom</span>
+                    <input type="test" class="champs" name="nom">
+                </div>
+                <div class="span-container"> 
+                    <span>email</span>
+                    <input type="email" class="champs" name="email">
+                </div>
+            </div>
+            <div class="span-container">
+                <span>message</span>
+                <input type="message" id="special" name="message">
+            </div>
+            <button id="contact-button" type="button">
+                envoyer
+            </button> 
+        </div>
+    </div>
+    <footer>      
+        <div id="container-logo-social">
+            <img src="img/logo.png" id="logo" alt="logo"/>
+            <img id="logo-social-insta" src="img/insta.png" alt="">
+            <img id="logo-social-twitter" src="img/twitter.svg" alt="">
+        </div> 
     </footer>
 </body>
 </html>
