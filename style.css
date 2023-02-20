@@ -1,0 +1,80 @@
+body, header, ul, h1{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #242424;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+
+li{
+    margin-top: 28px;
+    display: inline;
+    margin-left: 131px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: 72px;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+}
+
+main{
+    height: 653px;
+    width: 100vw;
+    background-color: #1F2039;
+}
+
+#title-main{
+    color: #A5B4FC;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 101px;
+    padding-left: 242px;
+}
+
+#intro-text{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    height: 108px;
+    width: 409px;
+    padding-top: 19px;
+    padding-left: 242px;
+    font-size: 20px;
+}
+
+#contact-button{
+    background: linear-gradient(180deg, #8E86B5 0%, #ACAEED 100%);
+    border-radius: 50px;
+    width: 306px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    margin-left: 242px;
+    margin-top: 46px; 
+    gap: 10px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact-button:hover{
+    background: linear-gradient(180deg, #71699a 0%, #7073b3 100%);
+}
